@@ -8,6 +8,9 @@ const STORE_ICONS: Record<string, string> = {
   iFixit: "🔧",
   Amazon: "📦",
   eBay: "🛒",
+  AutoZone: "🚗",
+  "O'Reilly": "🔴",
+  RockAuto: "🚙",
 };
 
 export function BuyLinks({ links }: Props) {
@@ -29,7 +32,7 @@ export function BuyLinks({ links }: Props) {
           }}
         >
           <span>{STORE_ICONS[link.store] ?? "🔗"}</span>
-          {link.label}
+          {link.label ?? link.store}
         </a>
       ))}
     </div>
