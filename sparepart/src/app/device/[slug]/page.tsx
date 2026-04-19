@@ -168,7 +168,7 @@ export default async function DevicePage(
                               className="px-2 py-0.5 rounded-full text-[10px] font-medium transition-opacity hover:opacity-80"
                               style={{ background: "#E4EEF7", color: "#1A5A8A" }}
                             >
-                              {link.label}
+                              {link.label ?? link.store}
                             </a>
                           ))}
                         </div>
