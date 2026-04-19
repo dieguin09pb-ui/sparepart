@@ -23,7 +23,8 @@
       "Bash(xargs grep *)",
       "Bash(npx supabase *)",
       "Bash(node scripts/update-models.mjs)",
-      "Bash(node scripts/add-phones.mjs)"
+      "Bash(node scripts/add-phones.mjs)",
+      "Bash(npx vercel *)"
     ]
   }
 }
