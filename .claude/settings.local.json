@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --src-dir --no-eslint --import-alias \"@/*\" --yes)",
+      "Bash(npx create-next-app@latest sparepart --typescript --tailwind --app --src-dir --no-eslint --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init --yes --base-color neutral)",
+      "Bash(npx shadcn@latest init --yes)",
+      "Bash(npx shadcn@latest init)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)",
+      "Bash(node -e ':*)",
+      "Bash(node scripts/seed.mjs)",
+      "Bash(cmd *)",
+      "Bash(powershell *)",
+      "Bash(node -e ' *)",
+      "Bash(node --input-type=module)",
+      "Bash(node scripts/seed-parts-v2.mjs)",
+      "Bash(node scripts/seed-cars.mjs)",
+      "Bash(cat next.config.ts)",
+      "Bash(cat next.config.js)",
+      "Bash(cat next.config.mjs)",
+      "Bash(xargs grep *)",
+      "Bash(npx supabase *)",
+      "Bash(node scripts/update-models.mjs)",
+      "Bash(node scripts/add-phones.mjs)"
+    ]
+  }
+}
