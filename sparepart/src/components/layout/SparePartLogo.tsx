@@ -57,7 +57,7 @@ function GearIcon({ size }: { size: number }) {
       width={size}
       height={size}
       viewBox={`0 0 ${size} ${size}`}
-      style={{ display: "inline-block", verticalAlign: "middle", margin: "0 1px" }}
+      style={{ display: "inline-block", verticalAlign: "middle", margin: "0 1px", overflow: "visible" }}
     >
       <polygon
         points={gearPoints}
